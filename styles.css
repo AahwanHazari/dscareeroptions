@@ -354,7 +354,7 @@ button:hover {
 }
 
 #overview {
-    background-image: url('markbg.jpg'); /* Path to your image */
+    background: linear-gradient(135deg, #4EE4DF, #4E67E5);
     background-size: cover; /* Make sure the image covers the section */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Prevent the image from repeating */
@@ -363,6 +363,9 @@ button:hover {
     text-align: center; /* Center the content */
 }
 
+#overview:hover {
+    background: linear-gradient(135deg, #D20103, #FEA5EC); /* New gradient on hover */
+}
 @keyframes rainbowText {
     0% { color: red; }
     14% { color: orange; }
